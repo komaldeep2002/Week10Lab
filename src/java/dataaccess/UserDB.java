@@ -13,11 +13,7 @@ import java.sql.*;
 import java.util.*;
 import models.*;
 
-/**
- * Full CRUD implementation.
- * 
- * For a given user: view, add, delete, and update (except email key value).
- */
+
 public class UserDB {
     
     public List<User> getAll() throws Exception {
